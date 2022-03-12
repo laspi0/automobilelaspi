@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Abril Fatface', cursive; */
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 33;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#car {
+    text-decoration: underline;
+    text-decoration-color: #ff0000;
+}
+
+.logo img {
+    margin-left: 100px;
+    height: 50px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.medium {
+    display: flex;
+    align-items: center;
+}
+
+.medium a {
+
+    padding: 16px 20px;
+    color: #ffffff;
+    /* margin: 0 40px; */
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#drop:hover {
+    /* background-color: #fd0000; */
+}
+
+.medium>a:hover {
+    /* transform: scale(1.1); */
+    background-color: #fd0000;
+    text-decoration-color: #000000;
+}
+
+
+
+/* Dropdown Button */
+
+.dropdown.dropbtn:hover {
+    background-color: #fd0000;
+}
+
+.dropbtn {
+    margin: 0 15px;
+    background-color: rgba(53, 56, 56, 0);
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: flex;
+    justify-content: left;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    /* border-top: 3px solid red; */
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    width: 100%;
+    /* transform: translateX(-40px); */
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
+.search {
+    align-items: center;
+    display: flex;
+    width: 20%;
+    /* background-color: #fd0000; */
+}
+
+.search input {
+    width: 90%;
+    height: 35px;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.search img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* %%%%%%%%%%==================main==========================%%%%%%%%%%%%%%% */
+
+
+.main {
+    width: 100%;
+    height: 93vh;
+    /* background-color: #fd0000; */
+    display: flex;
+    justify-content: center;
+}
+
+.main .max {
+    width: 90%;
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.max .content1 {
+    padding-top: 100px;
+    width: 80%;
+    height: 100%;
+}
+
+.max .content2 {
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(20, 173, 33); */
+}
+
+.content2 .titre {
+    padding-right: 60px;
+    margin: 100px auto;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.content2 .text {
+    margin: 20px auto;
+    width: 100%;
+    height: 50%;
+    /* display: flex; */
+    justify-content: end;
+    /* background: #fd0000; */
+
+
+}
+
+.text .social {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text .social img {
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social .face:hover {
+    transform: scale(1.1);
+    transition: all ease-in .1s;
+    background-color: rgb(6, 72, 255);
+}
+
+.social .insta:hover {
+    transform: scale(1.1);
+    transition: all ease-in .1s;
+    background-color: rgb(255, 43, 6);
+}
+
+.social .twitter:hover {
+    transform: scale(1.1);
+    transition: all ease-in .1s;
+    background-color: rgb(6, 197, 255);
+}
+
+.social .mail:hover {
+    transform: scale(1.1);
+    transition: all ease-in .1s;
+    background-color: rgb(118, 255, 6);
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'Smooch Sans', sans-serif; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+.btn a {
+    background-color: transparent;
+    color: #000000;
+    font-size: 19px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    border: #000000 2px solid;
+}
+
+.btn a:hover {
+    transform: scale(1.1);
+    transition: all ease .3s;
+    background-color: #fd0000;
+}
+
+/* %%%%%%%%%%%%%%%%%%%section1%%%%%%%%%%%%%%%%%%%% */
+
+.section3{
+    padding-top: 20px;
+    margin-top: 200px;
+    width: 100%;
+    height: 40vh;
+    /* background-color: #fd0000; */
+    display: flex;
+    flex-direction: column;
+}
+
+.block1{
+    justify-content: space-between;
+    display: flex;
+    margin: 0px auto;
+    width: 95%;
+    height: 250px;
+    /* background-color: #24d613; */
+
+}
+
+.titre{
+    width: 100%;
+}
+
+.car a:hover{
+    transform: scale(1.1);
+}
+.car{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+.car h5{
+    margin-left: 20px;
+}
+
+.section4{
+    margin-top: 150px;
+}
+
+/* %%%%%%%%%%%%%%%%%footer%%%%%%%%%%%%%%%%%% */
+
+
+footer{
+    /* justify-content: space-between; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(22, 17, 17);
+    top: 400vh;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    width: 90%;
+    height: 70%;
+    /* background-color: #fd0000; */
+    /* padding-bottom: 100px; */
+    border-bottom: #fd0000 1px solid;
+}
+
+.child{
+    display: flex;
+    width: 50%;
+    height: 90%;
+    /* background-color: aqua; */
+}
+
+.child .enf1{
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.enf1 a{
+    font-family: sans-serif;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.link{
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.link a{
+    margin-top: 40px;
+    font-size: 12px;
+}
